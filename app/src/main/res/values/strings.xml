@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">냉장고 파먹기</string>
+    <!--main page-->
+    <string name="content1_1">음식</string>
+    <string name="content1_2">제철음식</string>
+    <string name="action_settings">Settings</string>
+    <!--drawer page-->
+    <string name="nav_item_attachment">로그인</string>
+    <string name="nav_item_attachment2">로그아웃</string>
+    <string name="nav_item_images">레시피 등록</string>
+    <string name="nav_item_location">북마크한 레시피</string>
+    <!--login page-->
+    <string name="drawer_header_text">UserID</string>
+    <string name="drawer_header_text2">""</string>
+    <string name="login_top_text">온국민 냉장고 관리 필수어플</string>
+    <string name="login_top_text2">냉장고에 오신것을 환영 합니다.</string>
+    <string name="hint_id">ID를 입력하세요</string>
+    <string name="hint_password">패스워드를 입력하세요</string>
+    <string name="hint_name">성명을 입력하세요</string>
+    <string name="hint_mobileNO">휴대폰번호를 입력하세요</string>
+    <string name="hint_email">이메일을 입력하세요</string>
+    <string name="btn_login">로그인</string>
+    <string name="btn_register">회원가입</string>
+    <string name="btn_logout">로그아웃</string>
+    </resources>

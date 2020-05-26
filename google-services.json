@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "468379344604",
+    "firebase_url": "https://mylogin-ce275.firebaseio.com",
+    "project_id": "mylogin-ce275",
+    "storage_bucket": "mylogin-ce275.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468379344604:android:9f37a982512bd3229c9e19",
+        "android_client_info": {
+          "package_name": "com.cookandroid.appmain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "468379344604-7p4fb7vfc37p7rdpgsn7q47q7hu0qpm9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cookandroid.appmain",
+            "certificate_hash": "8a2a197d4b2c605ed97c406d94fb7d9513d55ebe"
+          }
+        },
+        {
+          "client_id": "468379344604-i1h7spir7m0btj9n2lo2jvsa8df76hle.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2LnXS1cfcIsLgzlRyRR2IMSJtnhkBUns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "468379344604-i1h7spir7m0btj9n2lo2jvsa8df76hle.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
