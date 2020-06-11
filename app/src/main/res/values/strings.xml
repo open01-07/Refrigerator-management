@@ -1,4 +1,8 @@
 <resources>
+    <string name="facebook_application_id">1187890621557870</string>
+    <string name="fb_login_protocol_scheme">fb1187890621557870</string>
+    <string name="client_id">725572683963-gqu8rvirutae7vrd4a155tdujh7tb9u0.apps.googleusercontent.com</string>
+
     <string name="app_name">냉장고 파먹기</string>
     <!--main page-->
     <string name="content1_1">음식</string>
@@ -22,4 +26,23 @@
     <string name="btn_login">로그인</string>
     <string name="btn_register">회원가입</string>
     <string name="btn_logout">로그아웃</string>
+
+
+    <!--content3 -->
+    <string name="content3_1">소고기레시피</string>
+    <string name="content3_2">마늘장아찌</string>
+    <string name="content3_3">우유찜케이크</string>
+    <string name="content3_4">문어볶음</string>
+    <string name="content3_5">고추참치비빔우동</string>
+    <string name="content3_6">순두부찌개</string>
+    <string name="content3_7">떡볶이</string>
+    <string name="content3_8">마늘쫑고추장무침</string>
+    <string name="content3_9">두부조림</string>
+    <string name="content3_10">감자간장조림</string>
+
+    <string name="detect_object">재료 찾기</string>
+
+    <!--reciperegistration-->
+    <string name="recipe_title">제목</string>
+    <string name="recipe_hint">제목을 입력하세요</string>
     </resources>

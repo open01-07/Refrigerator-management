@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/content1_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/event1"
+            android:scaleType="fitCenter"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:background="@drawable/top_border"
+            android:src="@drawable/event1_ic" />
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/content1_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="#FAFAFA"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+           >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="@string/content1_1"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="추천"
+                android:textColor="#1d3ebf"
+                android:textSize="30dp" />
+        </LinearLayout>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="#fafafa"
+            android:id="@+id/img_food"
+            android:src="@drawable/img_food_1" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:paddingLeft="20dp"
+            android:text="고추참치비빔우동 : 이정현 편스토랑 참치편!"/>
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="최신 레시피"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageButton
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                android:background="#fafafa"
+                android:id="@+id/content1_3"
+                android:src="@drawable/content1_4"
+                android:paddingBottom="130dp"/>
+            <ImageButton
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                android:background="#fafafa"
+                android:id="@+id/content1_4"
+                android:src="@drawable/content1_5"
+                android:paddingBottom="130dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

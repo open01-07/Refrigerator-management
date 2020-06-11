@@ -29,8 +29,7 @@
                 android:textSize="20dp"
                 android:paddingBottom="10dp"
                 android:text="@string/login_top_text"
-                android:textStyle="bold"
-                />
+                android:textStyle="bold"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -39,8 +38,7 @@
                 android:textSize="20dp"
                 android:paddingBottom="20dp"
                 android:text="@string/login_top_text2"
-                android:textStyle="bold"
-                />
+                android:textStyle="bold"/>
 
         </LinearLayout>
         <View
@@ -61,21 +59,21 @@
             android:background="#4682B4" />
 
         <com.google.android.gms.common.SignInButton
-            android:layout_marginTop="20dp"
-            android:layout_gravity="center"
             android:id="@+id/Google_Login"
-            android:layout_height="50dp"
             android:layout_width="310dp"
-            />
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp" />
 
-         <ImageButton
-             android:layout_marginTop="20dp"
-             android:layout_width="match_parent"
-             android:layout_height="50dp"
-             android:layout_gravity="center"
-             android:src="@drawable/kakaotalk_ic"
-             android:background="#f5f6f7"
-             />
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/mSigninFacebookButton"
+            android:layout_width="293dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp" />
+
 
     </LinearLayout>
+
 </LinearLayout>

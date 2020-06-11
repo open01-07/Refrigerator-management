@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:text="  오늘은 이게 땡겨"
+        android:textSize="25dp"
+        android:textColor="#000000"/>
+
+    <LinearLayout
+        android:layout_marginTop="-20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+        <Button android:text="메인반찬"
+            android:id="@+id/Button01"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/my"
+            android:textColor="@color/myy"
+            android:textColorHighlight="@color/myy"
+            android:textColorLink="@color/myy"
+
+            />
+
+
+        <Button android:text="국/탕/찌개"
+            android:id="@+id/Button02"
+            android:layout_width="95dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/my"
+            android:textColor="@color/myy"
+            android:textColorHighlight="@color/myy"
+            android:textColorLink="@color/myy"/>
+
+        <Button android:text="일반찬"
+            android:id="@+id/Button03"
+            android:layout_width="65dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/my"
+            android:textColor="@color/myy"
+            android:textColorHighlight="@color/myy"
+            android:textColorLink="@color/myy"/>
+
+        <Button android:text="면/만두"
+            android:id="@+id/Button04"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/my"
+            android:textColor="@color/myy"
+            android:textColorHighlight="@color/myy"
+            android:textColorLink="@color/myy"
+            />
+
+        <Button android:text="밥/죽"
+            android:id="@+id/Button05"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/my"
+            android:textColor="@color/myy"
+
+            android:textColorLink="@color/myy"/>
+
+    </TableRow>
+    </LinearLayout>
+</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
