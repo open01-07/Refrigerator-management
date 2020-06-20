@@ -3,6 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent">
 <LinearLayout
+    android:id="@+id/child_fragment"
     android:layout_marginTop="10dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -27,7 +28,7 @@
 
 
         <Button android:text="메인반찬"
-            android:id="@+id/Button01"
+            android:id="@+id/subButton1"
             android:layout_width="80dp"
             android:layout_height="30dp"
             android:layout_marginLeft="5dp"
@@ -41,7 +42,7 @@
 
 
         <Button android:text="국/탕/찌개"
-            android:id="@+id/Button02"
+            android:id="@+id/subButton2"
             android:layout_width="95dp"
             android:layout_height="30dp"
             android:layout_marginLeft="5dp"
@@ -51,8 +52,8 @@
             android:textColorHighlight="@color/myy"
             android:textColorLink="@color/myy"/>
 
-        <Button android:text="일반찬"
-            android:id="@+id/Button03"
+        <Button android:text="밑반찬"
+            android:id="@+id/subButton3"
             android:layout_width="65dp"
             android:layout_height="30dp"
             android:layout_marginLeft="5dp"
@@ -63,7 +64,7 @@
             android:textColorLink="@color/myy"/>
 
         <Button android:text="면/만두"
-            android:id="@+id/Button04"
+            android:id="@+id/subButton4"
             android:layout_width="70dp"
             android:layout_height="30dp"
             android:layout_marginLeft="5dp"
@@ -75,7 +76,7 @@
             />
 
         <Button android:text="밥/죽"
-            android:id="@+id/Button05"
+            android:id="@+id/subButton5"
             android:layout_width="60dp"
             android:layout_height="30dp"
             android:layout_marginLeft="5dp"
